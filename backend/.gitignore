@@ -1,0 +1,24 @@
+cd E:\PrivaSphere\privasphere\backend
+
+# Crear .gitignore del backend
+@"
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build
+dist/
+build/
+
+# Testing
+coverage/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
